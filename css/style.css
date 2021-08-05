@@ -2,11 +2,7 @@
 	box-sizing: border-box;
 	font-family: 'Rubik', sans-serif;
 }
-.container{
-	width: 100%;
-	margin-right: auto;
-	margin-left: auto;
-}
+
 .row{
 	display: flex;
 	flex-wrap: wrap;
@@ -158,6 +154,11 @@ a{
 	.visible-lg{
     	display: block !important;
   	}
+  	.container{
+			width: 1200px;
+			margin-right: auto;
+			margin-left: auto;
+		}
 }
 
 /*medium and small devices*/
@@ -211,6 +212,11 @@ a{
 	.visible-md{
     	display: block !important;
   	}
+  .container{
+  	max-width: 1199px;
+			margin-right: auto;
+			margin-left: auto;
+		}
 }
 
 /*extra small devices*/
@@ -264,4 +270,10 @@ a{
 	.visible-xs{
     	display: block !important;
   	}
+    .container{
+  		max-width: 767px;
+  		min-width: 100%;
+			margin-right: auto;
+			margin-left: auto;
+		}
 }
