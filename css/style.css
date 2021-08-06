@@ -19,6 +19,7 @@
 .responsive{
 	width: 100%;
 	height: auto;
+
 }
 
 .body{
@@ -63,6 +64,10 @@ a{
 	border: 2px solid red;
 	border-radius: 20px;
 }
+
+/*navbar end*/
+
+/*first-second tile starts*/
 .second{
 	padding-left:20px ;
 }
@@ -79,15 +84,14 @@ a{
 }
 #getstarted{
 	margin-top: 4em;
-	
 }
 .square-button{
 	background-color: #F53838;
 	color: white;
 	padding: 25px 40px;
 	width: 100%;
-	
-    border-radius: 10px;
+	box-shadow: 0 8px 40px 2px #F53838;
+  border-radius: 10px;
 
 }
 #features{
@@ -101,7 +105,162 @@ a{
 #features img{
 	margin-right: 15px;
 }
-/*navbar end*/
+/*first-second tile starts*/
+
+/*heading and para tile starts*/
+.align-middle{
+	text-align: center;
+}
+/*heading and para tile ends*/
+
+/*jumbotron*/
+.jumbotron{
+	margin: 100px auto;
+}
+/*mask group tiles*/
+.mask-group{
+	margin-right: 3%;
+	width: 100%;
+	max-height: 100px;
+	border-radius: 7px;
+	box-shadow: 0 0px 30px 3px lightslategrey;
+	margin-bottom: 50px;
+	background-color: darkgray;
+}
+.mask-group:hover{
+	border-color: darkslategray;
+}
+
+.three-col-tile{
+	padding: 40px;
+	height: 210px;
+	border-radius: 10px;
+	box-shadow: 0 0px 30px 3px lightslategrey;
+	margin: 75px auto;
+}
+.subscribe-tile{
+	padding: 40px;
+	height: 210px;
+	border-radius: 10px;
+	box-shadow: 0 0px 30px 3px lightslategrey;
+	background-color: white;
+	margin-top: 50px;
+	position: relative;
+}
+.statistics-tile{
+	padding: 10px 60px 10px 60px ;
+}
+.statistics-tile:nth-child(2){
+		border-right: 2px solid lightgrey;
+		border-left: 2px solid lightgrey;
+}
+.statistics-tile-heading{
+	font-weight: bold;
+	font-size: 1.1rem;
+}
+.statistics-tile-icon{
+	margin-right: 20px;
+	margin-top: 30px;
+}
+/*plan tile starts*/
+#plan-tile{
+	border: 2px solid lightgray;
+	border-radius: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 30px;
+	position: relative;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+#plan-tile ul{
+	list-style-type: none;
+	padding-left: 0px;
+
+}
+#plan-tile li{
+	margin: 20px auto;
+}
+.plan-tile-heading{
+	text-align: center;
+	font-weight: bolder;
+	font-size: 1.1rem;
+}
+#green-tick{
+	width:20px; margin-right:10px;
+}
+.a{
+	position: absolute;
+	bottom: 40px;
+	margin-left: 50px;
+}
+.select-button{
+	width: 100%;
+	min-width: 141px;
+	height: 40px;
+	border: 2px solid #F53838;
+	border-radius: 20px;
+  color: #F53838;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 700;
+  /*margin: 4px 2px;*/
+  margin-right: auto;
+  margin-left: auto;
+  cursor: pointer;
+}
+.select-button:hover{
+	background-color: #F53838;
+	color: white;
+}
+.select-button:active{
+	font-size: 1.1rem;
+	padding: 5px;
+}
+#rate{
+	font-weight: bolder;
+	font-size: 1.1rem;
+}
+/*plan tile ends*/
+
+/*footer strats*/
+.panel{
+	margin-top: -100px;
+	padding: 20px;
+	background: #F8F8F8;
+	padding-top: 140px;
+}
+.panel-left{
+	margin-right: 17%;
+}
+.follow-us{
+	height: 30px;
+	width: 30px;
+	border-radius: 15px;
+	background-color: red;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+#copy-right{
+	color: gray;
+}
+.panel-right p{
+	font-weight: bold;
+	font-size: 1.1rem;
+	margin-bottom: 30px;
+}
+.panel-right a{
+	float: left;
+	color: black;
+	clear: both;
+	margin-bottom: 20px;
+}
+
+
+/*footer ends*/
 
 /*large devices only*/
 @media (min-width: 1200px){
@@ -158,6 +317,10 @@ a{
 			width: 1200px;
 			margin-right: auto;
 			margin-left: auto;
+		}
+		#plan-tile{
+			min-height: 770px;
+			min-width: 236px;
 		}
 }
 
