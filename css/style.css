@@ -123,9 +123,19 @@ a{
 	width: 100%;
 	max-height: 100px;
 	border-radius: 7px;
-	box-shadow: 0 0px 30px 3px lightslategrey;
+	box-shadow: 0 0 35px 3px lightslategrey;
 	margin-bottom: 50px;
-	background-color: darkgray;
+}
+#discord{
+	padding-top: 8px;
+	background-color: rebeccapurple;
+}
+#amazon{
+	background-color: darkorange;
+}
+#spotify{
+	padding-top: 10px;
+	background-color: green;
 }
 .mask-group:hover{
 	border-color: darkslategray;

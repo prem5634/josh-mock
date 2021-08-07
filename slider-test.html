@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<!-- tells some ie to use latest rendering versions -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<meta name="viewport" content="width=device-width, initial=scaile=1">
+
+	<title>My Now Amazing Webpage</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<style type="text/css">
+	.tile{
+		width: 200px;
+		height: 300px;
+		border: 1px solid white;
+		margin: 40px;
+
+	}
+	.slick-arrow{
+		content: '' ;
+	}
+	.slick-prev,.slick-next{
+		position: absolute;
+		top: 50%;
+	    background-color: transparent !important;
+	    border: 2px solid red;
+	    border-radius: 30px;
+	    color: transparent !important;
+	    width: 60px;
+	    height: 60px;
+	     cursor: pointer;
+    	-webkit-transform: translate(0, -50%);
+    	-ms-transform: translate(0, -50%);
+    	transform: translate(0, -50%);
+
+	}
+	.slick-prev{
+	    left: -75px;
+	    background: url('images/back-arrow.png');
+	}
+	.slick-next{
+	    right: -75px;
+	    background: url('images/next-arrow.png');
+	}
+	.slick-loading .slick-list
+	{
+	    background: #fff url('./ajax-loader.gif') center center no-repeat;
+	}
+	</style>
+</head>
+<body style="background-color:gray;">
+<div class="container" >
+	<div class="your-class row" style="background-color: orange; color: white;">
+		
+		<div class="tile col-lg-3">your content1</div>
+		<div class="tile col-lg-3">your content2</div>
+		<div class="tile col-lg-3">your content3</div>
+		<div class="tile col-lg-3">your content4</div>
+		<div class="tile col-lg-3">your content5</div>
+		<div class="tile col-lg-3">your content6</div>
+		<div class="tile col-lg-3">your content7</div>
+		<div class="tile col-lg-3"><img src="images/eva_arrow-back-fill.png" style="background-color: white; border: 2px solid red; border-radius: 25px; color: white; width: 50px;"></div>
+	</div>
+</div>
+	
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript">
+	$('.your-class').slick({
+  slidesToShow: 3,
+  slidesToScroll:1,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+		
+</script>
+</body>
+</html>
