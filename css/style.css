@@ -53,6 +53,7 @@
 a{
 	text-align: center;
 	text-decoration: none;
+	color: black;
 }
 .nav-list a:hover{
 	font-size: 1.2em;
@@ -107,7 +108,41 @@ a{
 #features img{
 	margin-right: 15px;
 }
-/*first-second tile starts*/
+/*first-second tile ends*/
+
+
+/*three column tile start*/
+.three-col-tile{
+	padding: 40px;
+	min-height: 210px;
+	border-radius: 10px;
+	box-shadow: 0 0px 30px 3px lightslategrey;
+	margin: 75px auto;
+}
+.subscribe-tile{
+	padding: 40px;
+	min-height: 210px;
+	border-radius: 10px;
+	box-shadow: 0 0px 30px 3px lightslategrey;
+	background-color: white;
+	margin-top: 50px;
+	position: relative;
+}
+.statistics-tile{
+	padding: 10px 60px 10px 60px ;
+}
+
+.statistics-tile-heading{
+	font-weight: bold;
+	font-size: 1.1rem;
+}
+.statistics-tile-icon{
+	margin-right: 20px;
+	margin-top: 30px;
+	max-width: 100px;
+}
+/*three column tile ends*/
+
 
 /*heading and para tile starts*/
 .align-middle{
@@ -142,37 +177,6 @@ a{
 .mask-group:hover{
 	border-color: darkslategray;
 }
-/*three column tile start*/
-.three-col-tile{
-	padding: 40px;
-	min-height: 210px;
-	border-radius: 10px;
-	box-shadow: 0 0px 30px 3px lightslategrey;
-	margin: 75px auto;
-}
-.subscribe-tile{
-	padding: 40px;
-	min-height: 210px;
-	border-radius: 10px;
-	box-shadow: 0 0px 30px 3px lightslategrey;
-	background-color: white;
-	margin-top: 50px;
-	position: relative;
-}
-.statistics-tile{
-	padding: 10px 60px 10px 60px ;
-}
-
-.statistics-tile-heading{
-	font-weight: bold;
-	font-size: 1.1rem;
-}
-.statistics-tile-icon{
-	margin-right: 20px;
-	margin-top: 30px;
-	max-width: 100px;
-}
-/*three column tile ends*/
 
 /*plan tile starts*/
 #plan-tile{
@@ -234,6 +238,7 @@ a{
 .select-button:hover{
 	background-color: #F53838;
 	color: white;
+	box-shadow: 0 5px 20px 2px lightgray;
 }
 .select-button:active{
 	font-size: 1.1rem;
