@@ -9,57 +9,72 @@
 	<meta name="viewport" content="width=device-width, initial=scaile=1">
 
 
-	<title>Prem Kumar S</title>
+	<title>Prem Kumar S - Josh MockUp</title>
 
 	
 	
 	<!-- css files linking -->
-	<link rel="stylesheet" href="css/bootstrap.min.css"></link>
 	<link rel="stylesheet"  href="css/style.css">
+
 
 	<!-- google fonts for rubik font style -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 
+	<!-- styles for slider -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<style type="text/css">
+		.slick-prev{
+		    left: -75px;
+		    background: url('images/back-arrow.png');
+		}
+		.slick-next{
+		    right: -75px;
+		    background: url('images/next-arrow.png');
+		}
+	</style>
+	
 </head>
 <body>
+<!-- navgation bar -->
 <header>
 	<nav class="navbar">
 		<div class="container">
 			<div class="row">
-				<div class="navbar-header col-lg-2">
+				<div class="navbar-header col-lg-2 col-md-12 col-xs-12">
 					<a href="#" class="pull-left visible-lg visible-md visible-sm">
 						<div id="logo-image">
 							<img src="images/Logo.png" style="width:100%" alt="logo">
 						</div>
 					</a>	
 				</div>
-				<div id="collapsable-nav" class="col-lg-7">
+				<div id="collapsable-nav" class="col-lg-7 col-md-12 col-xs-12">
 					<ul class="nav-list">
-						<li class="col-lg-2">
+						<li class="col-lg-2 col-md-3 col-xs-12">
 							<a href="#">About</a>
 						</li>
-						<li class=" col-lg-2">
+						<li class=" col-lg-2 col-md-3 col-xs-12">
 							<a href="#">Features</a>
 						</li>
-						<li class=" col-lg-2">
+						<li class=" col-lg-2 col-md-3 col-xs-12">
 							<a href="#">Pricing</a>
 						</li>
-						<li class=" col-lg-2">
+						<li class=" col-lg-2 col-md-3 col-xs-12">
 							<a href="#">Testimonials</a>
 						</li>
-						<li class=" col-lg-2">
+						<li class=" col-lg-2 col-md-3 col-xs-12">
 							<a href="#">Help</a>
 						</li>
 					</ul>
 				</div>
-				<div id="navbar-right" class="col-lg-3">
+				<div id="navbar-right" class="col-lg-3 col-md-9 col-xs-12">
 					<ul class="nav-list">
-						<li class="col-lg-6" id="signinButton">
+						<li class="col-lg-6 col-md-6 col-xs-12" id="signinButton">
 							<a href="#" type="button">Sign In</a>
 						</li>
-						<li  class="col-lg-6" id="signupButton">
+						<li  class="col-lg-6 col-md-6 col-xs-12" id="signupButton">
 							<a href="#">Sign Up</a>
 						</li>
 					</ul>
@@ -68,12 +83,11 @@
 		</div>
 	</nav>
 </header>
-
+<!-- main tile1 -->
 <div class="container" id="main-tile1">
 	<div class="row">
-		<div class="second col-lg-6">
+		<div class="second col-lg-6 col-md-12 col-xs-12">
 			<div class="big-font">
-				
 				Want anything to be easy with MaxCX
 			</div>
 			<div>
@@ -85,15 +99,15 @@
 				</a>
 			</div>
 		</div>
-		<div class="first col-lg-6">
+		<div class="first col-lg-6 col-md-12 col-xs-12">
 			<img src="images/Illustration 1.png" alt="Picture1" class="responsive">
 		</div>
 	</div>
 </div>
-
+<!-- statistics: 3 column tile -->
 <div class="container three-col-tile">
 	<div class="row">
-		<div class="col-lg-4 statistics-tile">
+		<div class="col-lg-4 col-md-4 col-xs-12 statistics-tile">
 			<div class="col-lg-3 statistics-tile-icon">
 				<img src="images/user.png" class="responsive">
 			</div>
@@ -102,7 +116,7 @@
 				<p>Satisfied Customers</p>
 			</div>
 		</div>
-		<div class="col-lg-4 statistics-tile">
+		<div class="col-lg-4 col-md-4 col-xs-12 statistics-tile">
 			<div class="col-lg-3 statistics-tile-icon">
 				<img src="images/user.png" class="responsive">
 			</div>
@@ -111,7 +125,7 @@
 				<p>Blooming Companies</p>
 			</div>
 		</div>
-		<div class="col-lg-4 statistics-tile">
+		<div class="col-lg-4 col-md-4 col-xs-12 statistics-tile">
 			<div class="col-lg-3 statistics-tile-icon">
 				<img src="images/user.png" class="responsive">
 			</div>
@@ -122,12 +136,13 @@
 		</div>
 	</div>
 </div>
+<!-- main tile2 -->
 <div class="container" id="main-tile2">
 	<div class="row">
-		<div class="first col-lg-6">
+		<div class="first col-lg-6 col-md-12 col-xs-12">
 			<img src="images/Illustration 2.png" alt="Picture1" class="responsive">
 		</div>
-		<div class="second col-lg-6">
+		<div class="second col-lg-6 col-md-12 col-xs-12">
 			<div class="mid-font">
 				<p>We Provide Many Features You Can Use</p>
 			</div>
@@ -153,7 +168,7 @@
 		</div>
 	</div>
 </div>
-
+<!-- choose -->
 <div class="container">
 	<div class="align-middle">
 		<div class="mid-font">
@@ -164,18 +179,18 @@
 		</div>
 	</div>
 </div>
-
+<!-- plan select -->
 <div class="container">
 	<div class="row" >
-		<div class="col-lg-3" id="plan-tile">
-			<div>
+		<div class="col-lg-3 col-md-5 col-xs-12" id="plan-tile">
+			<div class="plan-tile-img">
 				<img src="images/Free.png" class="responsive">
 			</div>
 			<div>
 				<p class="plan-tile-heading">Free Plan</p>
 			</div>
-			<div >
-				<ul>
+			<div  >
+				<ul id="plan-tile-list">
 					<li>
 						<img src="images/checkmark-png.png" id="green-tick"><span>10 Inbound leads/pm</span>
 					</li>
@@ -199,15 +214,15 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-lg-3" id="plan-tile">
-			<div>
+		<div class="col-lg-3 col-md-5 col-xs-12" id="plan-tile">
+			<div class="plan-tile-img">
 				<img src="images/Standard.png" class="responsive">
 			</div>
 			<div>
 				<p class="plan-tile-heading">Standard Plan</p>
 			</div>
-			<div >
-				<ul >
+			<div>
+				<ul id="plan-tile-list">
 					<li>
 						<img src="images/checkmark-png.png" id="green-tick"><span>10k Inbound leads/pm</span>
 					</li>
@@ -218,7 +233,7 @@
 						<img src="images/checkmark-png.png" id="green-tick"><span>Unlimited usage</span>
 					</li>
 					<li>
-						<img src="images/checkmark-png.png" id="green-tick"><span>On demand Stats & updates</span>
+						<img src="images/checkmark-png.png" id="green-tick"><span>Ondemand Stats & updates</span>
 					</li>
 					<li>
 						<img src="images/checkmark-png.png" id="green-tick"><span>Workflow Customization</span>
@@ -234,15 +249,15 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-lg-3" id="plan-tile">
-			<div>
+		<div class="col-lg-3 col-md-6 col-xs-12" id="plan-tile">
+			<div class="plan-tile-img">
 				<img src="images/Premium.png" class="responsive">
 			</div>
 			<div>
 				<p class="plan-tile-heading">Premium Plan</p>
 			</div>
-			<div >
-				<ul>
+			<div>
+				<ul id="plan-tile-list">
 					<li>
 						<img src="images/checkmark-png.png" id="green-tick"><span>10k Inbound leads/pm</span>
 					</li>
@@ -253,7 +268,7 @@
 						<img src="images/checkmark-png.png" id="green-tick"><span>Unlimited usage</span>
 					</li>
 					<li>
-						<img src="images/checkmark-png.png" id="green-tick"><span>On demand Stats & updates</span>
+						<img src="images/checkmark-png.png" id="green-tick"><span>Realtime Stats & updates</span>
 					</li>
 					<li>
 						<img src="images/checkmark-png.png" id="green-tick"><span>Workflow Customization</span>
@@ -274,7 +289,7 @@
 		</div>
 	</div>
 </div>
-
+<!-- huge global network -->
 <div class="container">
 	<div class="align-middle">
 		<div class="mid-font">
@@ -285,33 +300,35 @@
 		</div>
 	</div>
 </div>
-
+<!-- world map -->
 <div class="container">
 	<div class="jumbotron">
 		<img src="images/Huge Global.png" alt="Picture of world" class="responsive">
 	</div>
 </div>
+<!-- company logos -->
 <div class="container">
 	<div class="row">
-		<div class="col-lg-2 mask-group" id="amazon">
+		<div class="col-lg-2 col-md-2 col-xs-3 mask-group" id="amazon">
 			<img src="images/Mask Group-22.png" class="responsive">
 		</div>
-		<div class="col-lg-2 mask-group" id="discord">
+		<div class="col-lg-2 col-md-2 col-xs-3 mask-group" id="discord">
 			<img src="images/Mask Group-3.png" class="responsive" >
 		</div>
 		
-		<div class="col-lg-2 mask-group" id="amazon">
+		<div class="col-lg-2 col-md-2 col-xs-3 mask-group" id="amazon">
 			<img src="images/Mask Group-22.png" class="responsive">
 		</div>
-		<div class="col-lg-2 mask-group" id="discord">
+		<div class="col-lg-2 col-md-2 col-xs-3 mask-group" id="discord">
 			<img src="images/Mask Group-3.png" class="responsive">
 		</div>
-		<div class="col-lg-2 mask-group" id="spotify">
+		<div class="col-lg-2 col-md-2 col-xs-3 mask-group" id="spotify">
 			<img src="images/Mask Group-4.png" class="responsive">
 		</div>
 		
 	</div>
 </div>
+<!-- 100 happy cutomers -->
 <div class="container">
 	<div class="align-middle">
 		<div class="mid-font">
@@ -322,15 +339,118 @@
 		</div>
 	</div>
 </div>
+<!-- review slider -->
+<div class="container" id="review-container">
+	<div class="your-class row" >
+		<div class="review-tile col-lg-4 col-md-6 col-xs-8">
+			<div class="col-lg-2 profile-pic ">
+				<img src="images/Ellipse 175.png" class="responsive">
+			</div>
+			<div class="col-lg-5 align-middle">
+				<p><b>Viezh Robert</b></p>
+				<p id="country">Warsaw, Poland</p>
+			</div>
+			<div class="col-lg-3 rating">
+				<span >4.5</span>
+				<img src="images/star.png" id="star">
+			</div>
+			<div class="col-lg-12" >
+				<p class="review-para">“Wow... I am very happy to use this MaxCX service, it turned out to be more than my expectations and so far there have been no problems. MaxCX always the best.”</p>
+			</div>
+		</div>
+		<div class="review-tile col-lg-4 col-md-6 col-xs-8">
+			<div class="col-lg-2 profile-pic ">
+				<img src="images/Ellipse 175-1.png" class="responsive">
+			</div>
+			<div class="col-lg-5 align-middle">
+				<p><b>Yessica Christy</b></p>
+				<p id="country">Shanxi, China</p>
+			</div>
+			<div class="col-lg-3 rating">
+				<span >4.5</span>
+				<img src="images/star.png" id="star">
+			</div>
+			<div class="col-lg-12" >
+				<p class="review-para">“I like it because I’ve my userbase around the globe and MaxCX just makes it a lot easier for me removing all the inter-continent barriers.”</p>
+			</div>
+		</div>
+		<div class="review-tile col-lg-4 col-md-6 col-xs-8">
+			<div class="col-lg-2 profile-pic ">
+				<img src="images/Ellipse 175-2.png" class="responsive">
+			</div>
+			<div  class="col-lg-5 align-middle">
+				<p><b>Kim Young Jou</b></p>
+				<p id="country">Seoul, South Korea</p>
+			</div>
+			<div class="col-lg-3 rating">
+				<span >4.5</span>
+				<img src="images/star.png" id="star">
+			</div>
+			<div class="col-lg-12" >
+				<p class="review-para">“This is very unusual for my business that currently requires a partner that keeps my data at the highest possibe security.”.</p>
+			</div>
+		</div>
+		<div  class="review-tile col-lg-4 col-md-6 col-xs-8">
+			<div class="col-lg-2 profile-pic ">
+				<img src="images/Ellipse 175.png" class="responsive">
+			</div>
+			<div  class="col-lg-5 align-middle">
+				<p><b>Viezh Robert1</b></p>
+				<p id="country">Warsaw, Poland</p>
+			</div>
+			<div class="col-lg-3 rating">
+				<span >4.5</span>
+				<img src="images/star.png" id="star">
+			</div>
+			<div class="col-lg-12" >
+				<p class="review-para">“Wow... I am very happy to use this MaxCX service, it turned out to be more than my expectations and so far there have been no problems. MaxCX always the best.”</p>
+			</div>
+		</div>
+		<div  class="review-tile col-lg-4 col-md-6 col-xs-8">
+			<div class="col-lg-2 profile-pic ">
+				<img src="images/Ellipse 175-1.png" class="responsive">
+			</div>
+			<div  class="col-lg-5 align-middle">
+				<p><b>Yessica Christy1</b></p>
+				<p id="country">Shanxi, China</p>
+			</div>
+			<div class="col-lg-3 rating">
+				<span >4.5</span>
+				<img src="images/star.png" id="star">
+			</div>
+			<div class="col-lg-12" >
+				<p class="review-para">“I like it because I’ve my userbase around the globe and MaxCX just makes it a lot easier for me removing all the inter-continent barriers.”</p>
+			</div>
+		</div>
+		<div  class="review-tile col-lg-4 col-md-6 col-xs-8">
+			<div class="col-lg-2 profile-pic ">
+				<img src="images/Ellipse 175-2.png" class="responsive">
+			</div>
+			<div  class="col-lg-5 align-middle">
+				<p><b>Kim Young Jou1</b></p>
+				<p id="country">Seoul, South Korea</p>
+			</div>
+			<div class="col-lg-3 rating">
+				<span >4.5</span>
+				<img src="images/star.png" id="star">
+			</div>
+			<div class="col-lg-12" >
+				<p class="review-para">“This is very unusual for my business that currently requires a partner that keeps my data at the highest possibe security.”.</p>
+			</div>
+		</div>
+		
+	</div>
+</div>
+<!-- subcribe -->
 <div class="container subscribe-tile">
 	<div class="row">
-		<div class="col-lg-4 ">
+		<div class="col-lg-4 col-md-12 col-xs-12">
 			<div class="mid-font">
 				Subscribe Now & get Special Features!
 			</div>
 			<p>Subscribe with us and fin the fun.</p>
 		</div>
-		<div class="col-lg-4 ">
+		<div class="col-lg-4  col-md-12 col-xs-12">
 			
 		</div>
 		<div class="col-lg-4" id="getstarted" >
@@ -340,10 +460,11 @@
 			</div>
 	</div>
 </div>
+<!-- footer -->
 <div class="panel">
 	<div class="container">
 		<div class="row">
-			<section class="col-lg-4 panel-left">
+			<section class="col-lg-4 col-md-6 col-xs-12 panel-left">
 				<div class="col-lg-12">
 					<a href="#" class="pull-left visible-lg visible-md visible-sm">
 						<div id="logo-image">
@@ -365,7 +486,7 @@
 					<span id="copy-right">&copy;2021 MaxCX</span>
 				</div>
 			</section>
-			<section class="col-lg-2 panel-right">
+			<section class="col-lg-2 col-md-2 col-xs-4 panel-right">
 				<p class="panel-heading">Product</p>
 				<a href="#">Download</a>
 				<a href="#">Locations</a>
@@ -373,7 +494,7 @@
 				<a href="#">Countries</a>
 				<a href="#">Blog</a>
 			</section>
-			<section class="col-lg-2 panel-right">
+			<section class="col-lg-2 col-md-2 col-xs-4  panel-right">
 				<p class="panel-heading">Engage</p>
 				<a href="#">MaxCX ?</a>
 				<a href="#">FAQ</a>
@@ -382,7 +503,7 @@
 				<a href="#">Privacy Policy</a>
 				<a href="#">Terms of Service</a>
 			</section>
-			<section class="col-lg-2 panel-right">
+			<section class="col-lg-2  col-md-2 col-xs-4 panel-right">
 				<p class="panel-heading">Earn Money</p>
 				<a href="#">Affiliate</a>
 				<a href="#">Become Partner</a>
@@ -391,8 +512,49 @@
 		</div>
 	</div>
 </div>
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12 align-middle gitrepo">
+			<span id="copy-right">&copy;<a href="https://github.com/prem5634/josh-mock">2021 Swarnakari Prem Kumar, Git Repository</a></span>
+		</div>
+	</div>
+</div>
 
+<!-- scripts for js and slick js -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript">
+	$('.your-class').slick({
+  slidesToShow: 3,
+  slidesToScroll:1,
+  infinite:false,
+  responsive: [
+  	{
+      breakpoint: 900,
+      settings: {
+        arrows: false,
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 468,
+      settings: {
+        arrows: false,
+        slidesToShow: 1
+      }
+    }
 
+  ]
+});
+		
+</script>
 </body>
 </html>

@@ -10,11 +10,39 @@
 
 	<title>My Now Amazing Webpage</title>
 
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> -->
 	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 	<style type="text/css">
+	*{
+		box-sizing: border-box;
+		font-family: 'Rubik', sans-serif;
+	}
+	.container{
+				width: 85%;
+				margin-right: auto;
+				margin-left: auto;
+			}
+	.row{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.pull-left {
+	  float: left !important;
+	}
+	.hide {
+	  display: none !important;
+	}
+	.show {
+	  display: block !important;
+	}
+	.responsive{
+		width: 100%;
+		height: auto;
+
+	}
+
 	.tile{
 		width: 200px;
 		height: 300px;
@@ -22,9 +50,13 @@
 		margin: 40px;
 
 	}
-	.slick-arrow{
-		content: '' ;
-	}
+	.review-tile{
+		width: 100%;
+		height: 200px;
+		border: 1px solid white;
+		border-radius: 10px;
+		margin: 40px;
+	}		
 	.slick-prev,.slick-next{
 		position: absolute;
 		top: 50%;
@@ -66,6 +98,25 @@
 		<div class="tile col-lg-3">your content6</div>
 		<div class="tile col-lg-3">your content7</div>
 		<div class="tile col-lg-3"><img src="images/eva_arrow-back-fill.png" style="background-color: white; border: 2px solid red; border-radius: 25px; color: white; width: 50px;"></div>
+	</div>
+</div>
+
+<div class="container" style="margin-top:50px">
+	<div class="your-class row" style="background-color: black; color: white;">
+		<div class="review-tile col-lg-3">
+			<div class="profile">
+				<img src="">
+			</div>
+			<div>
+				
+			</div>
+			<div>
+				<img src="images/Vector.png" style="width:20px"><span>Managed Turn around limits</span>
+			</div>
+		</div>
+		<div class="review-tile col-lg-3"></div>
+		<div class="review-tile col-lg-3"></div>
+		<div class="review-tile col-lg-3"></div>
 	</div>
 </div>
 	
